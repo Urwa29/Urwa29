@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en" class="dark" style="color-scheme: dark;">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Business Card</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./BusinessCard.CSS">
+    <link rel="stylesheet" href="./BusinessCard.JS">
+   <style>body {
+    margin: 50px black;
+    padding: 50px ;
+    
+}
+
+#heading {
+    text-align: center;
+    font-size: 60px;
+    background-color: pink;
+    color: black;
+}
+
+p {
+    text-align: center;
+    font-size: 50px;
+}
+footer{
+    background-color: pink;
+    text-align: center;
+    font-size: 60px;
+    
+}
+.fa-facebook{
+    color: rgb(9, 56, 187);
+}
+.fa-twitter{
+    color: rgb(44, 99, 248);
+}
+.fa-linkedin{
+    color: blue;
+}
+.fa-whatsapp{
+   color: seagreen;
+}
+.fa-github{
+    color: black;
+}
+#center {
+    display: inline;
+    font-size: 25px;
+}
+</style>
+
+</head>
+
+<body>
+    <header>
+        <nav>
+            <h1 id="heading">BUSINESS CARD</h1>
+        </nav>
+    </header>
+    <p>
+        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIMAAACDCAMAAACZQ1hUAAAAMFBMVEXk5ueutLfo6uu3vb+rsbTe4eK9wsTa3d7IzM7Bxsi6v8LN0dOxt7rX2tvQ1NbFycu/cW2wAAAC6klEQVR4nO2awZKDIAxAIYACCv7/365a67a7FRMk1ANvpqcefBNCDEQhGo1Go9FoNBqNRqPxC8B3H276OAw2BmPEN0xAhElJvTH6ydQOCJhpfr58YfYYagYDjHsX2DTkUE8hyg8Gq4XqK4WiOzBYLWwFCTBHQdgkOn6HPiWwSvivK/BLmHOFRYIzJ2DEOLAmJthkOr5IBC4JCEgFKUcmBSFwK7EGYuIJBAzoMMwYHgeCAVMgIFLCIDWDggBFUZB6YAiEIYVBSlVeAV0bdhiy0hMVGBbD4IvDRlfcoacuhRyLO5AK1IPSCQET3aEv7eDICjqWdqBuCw4HWpW8jUPpE88t4tDdwCFjb4bSDjeoUQLfzz4p39eiTjdvqPJNDHVjMBx0wBEXQ5d+XQj6y5uhl8OeNfcwcDT3xIZSsxxyaI01z/mflJW6dJHcIJQIXb6hfUDJCJ4j7wJ2a7DeEOICwbYSC9izN5+BwKYEXzI8JBB9BPud9anEaPhvrI9v7Re0qqCw3Jr7Q4kq1/YPizh+tNC+ShA2CTGMfyc5Wnqmd8SxRejWadr6+GWqZmuNcN40oI/Wee87Z2P1qd4u8UL1h88/Y0K0k+sW3GSH2JvtnwrPn5dgcH7chqvymQ9LSihnA/vsGUyYlP4023xujvk/x5ccACZ6mR7qbR5SDTwD8NAhnv9SLEpPnkHYz5UxGQ5XsGIcjLcRFr7QXAuEIyzCX3yJUyfYCwZynT1fjAWEawaLxLUL/HkZrhqsFhe+SICevBmOyA0FcYiWRLs8hSLrsEvk9Jlw3DTmQe+3iyvMUCUYFIgSkPrsJp+RcAjMuZzGSaADQfjOgQj+so46VaZIYIsVSz4+QaVEyfL4H+QVDacC7tKQPt8nghkpMCsgvltiDwPmQp8+QyRz1mKyladfzgoVW5V+5aRik76Byia9GPTpXQYng3DWGrk7uNRi5ExzM0iWKabe5R9JB6dqkN4YUIdkTjYajUbjhvwAhkMhCkCbAawAAAAASUVORK5CYII="
+            alt="Profile Picture">
+            URWA BALLU
+            <p>urwaballu@gmail.com</p>
+    </p>
+    <span id="center">
+        
+        <ul>
+            <h1>Skills:</h1>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>C#</li>
+            <li>C</li>
+        </ul>
+        <ul>
+            <h1>Interest:</h1>
+            <li>Accounts</li>
+            <li>Programming</li>
+            <li>Cricket</li>
+            <li>Photography</li>
+        </ul>
+    
+    </span>
+    <footer>
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-github"></i>
+        <i class="fa-brands fa-linkedin"></i>
+        <i class="fa-brands fa-whatsapp"></i>
+        <!-- <i class="fa fa-linkedin" aria-hidden="true"></i> -->
+    </footer>
+</body>
+
+</html>
